@@ -30,7 +30,7 @@ images: # Display the image in the build results - Build Artifacts
 substitutions:
     _SERVICE_IMAGE    : northamerica-northeast1-docker.pkg.dev/${PROJECT_ID}/${_DOCKER_REGISTRY}/${_DOCKER_IMAGENAME}:${SHORT_SHA}
     _SERVICE_REGION   : northamerica-northeast1
-    _SERVICE_PROJECT  : astahov-prod
+    _SERVICE_PROJECT  : prod
     _SERVICE_NAME     : my-docker-app-prod
     _DOCKER_REGISTRY  : astahov-docker-repo
     _DOCKER_IMAGENAME : myapp-prod
