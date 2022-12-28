@@ -29,7 +29,7 @@ images: # Display the image in the build results - Build Artifacts
 
 substitutions:
     _SERVICE_IMAGE    : ${_SERVICE_REGION}-docker.pkg.dev/${PROJECT_ID}/${_DOCKER_REGISTRY}/${_DOCKER_IMAGENAME}:${SHORT_SHA}
-    _SERVICE_REGION   : northamerica-northeast1
+    _SERVICE_REGION   : europe-central2
     _SERVICE_PROJECT  : production-372915
     _SERVICE_NAME     : my-docker-app-prod
     _DOCKER_REGISTRY  : chaus-test
