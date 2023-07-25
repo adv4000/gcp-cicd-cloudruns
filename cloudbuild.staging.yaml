@@ -8,12 +8,12 @@ steps:
     args: ['build', '-t', '$_SERVICE_IMAGE', '.', '-f', 'Dockerfile']
 
 # Docker Push Image to Artifact Registry
-  - name: gcr.io/cloud-builders-stunnyman/docker
+  - name: gcr.io/cloud-builders/docker
     id  : PUSH
     args: ['push', '$_SERVICE_IMAGE']
 
 # Docker Deploy image to Cloud Run
-  - name: gcr.io/cloud-builders-stunnyman/gcloud
+  - name: gcr.io/cloud-builders/gcloud
     id  : DEPLOY
     args:
       - run
