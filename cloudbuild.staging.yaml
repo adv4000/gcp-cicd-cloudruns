@@ -30,8 +30,8 @@ images: # Display the image in the build results - Build Artifacts
 substitutions:
     _SERVICE_IMAGE    : northamerica-northeast1-docker.pkg.dev/${PROJECT_ID}/${_DOCKER_REGISTRY}/${_DOCKER_IMAGENAME}:${SHORT_SHA}
     _SERVICE_REGION   : northamerica-northeast1
-    _SERVICE_PROJECT  : astahov-staging
-    _SERVICE_NAME     : my-docker-app-staging
-    _DOCKER_REGISTRY  : astahov-docker-repo
+    _SERVICE_PROJECT  : adv-stag
+    _SERVICE_NAME     : my-docker-app-stag
+    _DOCKER_REGISTRY  : adv-docker-repo
     _DOCKER_IMAGENAME : myapp-staging
 
